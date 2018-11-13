@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS album_scheduler_task;
 
-CREATE TABLE album_scheduler_task (
+CREATE TABLE albums.album_scheduler_task (
   started_at TIMESTAMP NULL DEFAULT NULL
 );
 
